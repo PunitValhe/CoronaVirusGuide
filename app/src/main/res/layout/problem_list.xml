@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_image"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/new_txt1"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="What is coronavirus?" />
+
+    <TextView
+        android:id="@+id/new_txt2"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Prevention" />
+
+    <TextView
+        android:id="@+id/new_txt3"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Recommendations for travellers
+
+" />    <TextView
+        android:id="@+id/new_txt4"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Symptoms" />
+    <TextView
+        android:id="@+id/new_txt5"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="When to see a doctor" />
+    <TextView
+        android:id="@+id/new_txt6"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Risk factors
+" />
+</LinearLayout>

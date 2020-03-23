@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_image"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/new_txt1"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="क्या है कोरोना वायरस ?" />
+
+    <TextView
+        android:id="@+id/new_txt2"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="क्या हैं इस बीमारी के लक्षण ?" />
+
+    <TextView
+        android:id="@+id/new_txt3"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="क्या हैं इससे बचाव के उपाय ?" />
+
+    <TextView
+        android:id="@+id/new_txt4"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="तेजी से फ़ैल रहा है कोरोना वायरस " />
+
+    <TextView
+        android:id="@+id/new_txt5"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="संक्रमण से बचने के लिए क्या करें ?" />
+
+    <TextView
+        android:id="@+id/new_txt6"
+        style="@style/textStyle1"
+        android:layout_margin="3dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="क्या है कोरोना वायरस से संक्रमित लोगों का इलाज ?" />
+</LinearLayout>
